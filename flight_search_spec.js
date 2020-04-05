@@ -1,5 +1,5 @@
-var klmHomePage = require('./klm_home_page');
-var klmSearchPage = require('./klm_search_page');
+var klmHomePage = require('./page_object/klm_home_page');
+var klmSearchPage = require('./page_object/klm_search_page');
 
 describe('KLM home page', function() {
   it('should filter by destination country', async function() {
